@@ -1,0 +1,21 @@
+@use 'variables'; 
+
+* 
+{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: variables.$Font-one;
+    background: linear-gradient(236deg, variables.$Cream, variables.$White);
+
+    /* Media Query */
+}

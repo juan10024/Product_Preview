@@ -1,0 +1,17 @@
+@use 'variables'; 
+
+footer
+{
+    width: 100%;
+    .attribution 
+    { 
+        font-size: 12px; 
+        text-align: center; 
+    }
+        
+    .attribution a 
+    { 
+        color: variables.$White;
+        text-decoration: none;
+    }
+}

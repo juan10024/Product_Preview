@@ -1,0 +1,24 @@
+@use 'variables'; 
+@use 'footer'; 
+@use 'general'; 
+@use 'content'; 
+
+.main
+{
+    &__container
+    {
+        width: 375px;        
+        max-width: 37.5rem; 
+        margin: auto;
+        margin-top: 24px;
+    
+        /* Media Query */
+        @media (min-width: 640px)
+        {
+            width: 640px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 118px  !important;
+        }
+    }
+}

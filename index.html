@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Juan Daniel | Product preview card component</title>
+
+  <!-- Link Css Style File -->
+  <link rel="stylesheet" href="./main.css">
+  
+</head>
+<body>
+
+  <main class="main__container">
+
+    <!-- Article content start -->
+      <article class="content__up">
+          <picture class="content__image">
+            <source
+            media="(min-width: 640px)"
+            srcset="./images/image-product-desktop.jpg"
+            >
+            <img src="./images/image-product-mobile.jpg" alt="main image">
+          </picture>
+      </article>
+      
+        <article class="content__down">
+          <div class="content__details">
+            <h3 class="content__sub-title">perfume</h3>
+            <h1 class="content__title">Gabrielle Essence Eau De Parfum</h1>
+            <p>
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+          </div>
+          <div class="content__price">
+            <div class="content__prices">
+              <p>
+                $149.99
+              </p>
+              <span>
+                $169.99
+              </span>
+            </div>
+      
+            <button class="add__cart-button">
+              <img src="./images/icon-cart.svg" alt="cart icon">
+              Add to Cart
+            </button>
+          </div>
+        </article>
+    <!-- Article content end -->   
+  </main>
+ 
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Juan Daniel Valderrama Pérez</a>.
+    </div>
+  </footer>
+</body>
+</html>
